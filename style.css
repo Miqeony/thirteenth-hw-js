@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+.header_container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 29px 20px 15px 11px;
+}
+
+.general {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_menu ul {
+    display: flex;
+    gap: 23px;
+    margin-top: 10px;
+}
+
+.site-nav__link {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.site-nav__link:hover {
+    text-decoration: underline;
+}
+
+
+.personal_nav {
+    margin-top: 10px;
+}
+
+.personal_nav a {
+    margin-right: 11px;
+}
+
+
+.container {
+    width: 1440px;
+    height: 810px;
+    margin: 0 auto;
+}
+
+
+/* 1 */
+
+.first_screen {
+    background-image: url(img/first-screen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.general_two {
+    text-align: center;
+    padding-top: 45px;
+}
+
+
+
+.first h2 {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 50.63px;
+    letter-spacing: 0%;
+}
+
+
+
+.first p {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    margin: 14px 0 22px 0;
+}
+
+.small_nav a {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 35px;
+    background: rgb(255, 74, 50);
+    padding: 7px 47px;
+}
+
+.small_nav a:hover {
+    background: rgb(232, 99, 81);
+
+}
+
+/* 2 */
+
+.second_screen {
+    background-image: url(img/second-screen.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.second h3 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.second h2 {
+    font-family: Roboto;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50.63px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 11px 0 15px 0;
+}
+
+.newP {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 488px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.second a {
+    border-radius: 35px;
+    background: rgb(255, 74, 50);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: center;
+    padding: 5px 66px;
+}
+
+.second a:hover {
+    background: rgb(232, 99, 81);
+}
+
+/* kitty */
+.cat {
+    display: flex;
+    margin: 0 auto;
+}
