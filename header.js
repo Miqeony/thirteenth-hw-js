@@ -15,7 +15,7 @@ logoDiv.classList.add("logo");
 
 
 const logoLink = document.createElement("a");
-logoLink.href = "./index.html";
+logoLink.href = "/index.html";
 
 
 const logoImg = document.createElement("img");
@@ -49,7 +49,7 @@ const menuItems = [
 menuItems.forEach(function(item) {
     const li = document.createElement("li");
     const a = document.createElement("a");
-    a.href = "./newPage.html";
+    a.href = "/newPage.html";
     a.classList.add("site-nav__link");
     a.textContent = item;
     li.appendChild(a);
@@ -65,11 +65,11 @@ personalNavDiv.classList.add("personal_nav");
 
 
 const personalLink = document.createElement("a");
-personalLink.href = "./newPage.html";
+personalLink.href = "/newPage.html";
 personalLink.innerHTML = "<img src='img/pers2.svg' alt='Personal Cabinet'>";
 
 const basketLink = document.createElement("a");
-basketLink.href = "./newPage.html";
+basketLink.href = "/newPage.html";
 basketLink.innerHTML = "<img src='img/cart.svg' alt='Buyer Basket'>";
 
 
